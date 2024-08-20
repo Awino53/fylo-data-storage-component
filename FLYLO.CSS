@@ -1,0 +1,60 @@
+body{
+    background-image: url("/images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(3, 3, 50);
+    background-position: center bottom;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    height: 100vh;
+    align-items: center;
+}
+.flyo{
+    padding: 30px;
+    border: 5px solid rgb(4, 4, 98) ;
+    border-top-right-radius: 70px;
+    background-color: rgb(4, 4, 98);
+    justify-content: center;
+
+} 
+.icons{
+    display: flex;
+    gap: 20px;
+    padding: 2px;
+    margin-top: 15px;
+}
+#icon-image{
+    background-color: rgb(47, 41, 41);
+    padding: 15px;
+    border-radius: 10px;
+     
+}
+.strip{
+    color: white;
+    background-color: rgb(4, 4, 98);
+    padding: 20px;
+    border-radius: 10px;
+}
+#storage{
+    width: 100%;
+    background-color: blue;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#storage::-webkit-progress-bar{
+    background-color: red;
+    
+}
+input[type="range"]::-moz-range-progress {
+    background-color: rgb(242, 101, 148);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+}
